@@ -50,7 +50,7 @@
         <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
         <v-toolbar-title slot="activator">
           <v-avatar tile v-if="logo">
-            <v-img :src="require('../assets/logo_64x64T.png')" :alt="company"></v-img>
+            <v-img :src="logo" :alt="company"></v-img>
           </v-avatar>
           {{project}}
         </v-toolbar-title>
@@ -87,7 +87,7 @@ export default {
   data: () => ({
     project: '基金产品绩效系统',
     company: '国富投资CapitalEdge',
-    logo: '../assets/logo_64x64T.png',
+    logo: '../../static/logo_64x64T.png',
     copyright: ' © 2019 上海国富投资管理有限公司 版权所有',
     dark: false,
     theme: 'white',
