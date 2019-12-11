@@ -76,7 +76,6 @@
       </v-card>
     </v-footer>
   </v-app>
-
 </template>
 
 <script>
@@ -95,12 +94,9 @@ export default {
     colors: ['white', 'blue', 'green', 'purple', 'red']
   }),
   computed: {
-    ...mapState(['message', 'menu', 'pageTitle'])
+    ...mapState(['menu'])
   },
   methods: {
-  },
-  created () {
-    this.fetchMenu()
   }
 }
 </script>
