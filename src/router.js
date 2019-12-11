@@ -24,7 +24,9 @@ const router = new Router({
     // path, file(*.vue), name, children
 
     route('/', 'Main', null, [
-      route('/', 'Welcome', 'welcome')
+      route('/', 'Welcome', 'welcome'),
+      route('/performance', 'performance/Performance'),
+      route('/monitor', 'monitor/Monitor')
     ])
 
     // Global redirect for 404

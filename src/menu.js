@@ -1,7 +1,8 @@
 export default [
   { 'header': 'Admin' },
   { 'href': '/', 'title': '关于站点', 'icon': 'home' },
-  { 'href': '/crud/types', 'title': 'Types', 'icon': 'view_list' },
+  { 'href': '/performance', 'title': '产品绩效', 'icon': 'view_list' },
+  { 'href': '/monitor', 'title': '实时监控', 'icon': 'trending_up' },
   // { 'href': '/crud/posts', 'title': 'Posts', 'icon': 'view_list' },
   // { 'href': '/crud/posts/create', 'title': 'Create Post', 'icon': 'note_add' },
 
